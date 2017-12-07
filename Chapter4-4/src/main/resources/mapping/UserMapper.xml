@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--这里 namespace 配置 UserMapper 的路径 -->
+<mapper namespace="com.itqiwen.chapter44.mapper.UserMapper">
+	<select id="findAllUser" resultType="user">
+		select * from user;
+	</select>
+</mapper>
+
