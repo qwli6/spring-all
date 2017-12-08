@@ -6,5 +6,19 @@
 	<select id="findAllUser" resultType="user">
 		select * from user;
 	</select>
+
+
+	<insert id="insertUser" parameterType="user">
+		insert into user(name, sex, address) values(#{name},#{sex}, #{address});
+	</insert>
+
+
+	<select id="findUserById" parameterType="java.lang.Long" resultType="User">
+		select * from user WHERE uid = #{uid};
+	</select>
+
+	<delete id="deleteUserById" parameterType="java.lang.Long">
+		delete from user where uid = #{id};
+	</delete>
 </mapper>
 
