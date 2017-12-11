@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Spring Boot Thymeleaf + Spring Security</title>
+
+    <div th:replace="fragments/header :: header-css"/>
+
+</head>
+<body>
+
+<div th:replace="fragments/header :: header"/>
+
+<div class="container">
+
+    <div class="starter-template">
+        <h1>Spring Boot Web Thymeleaf + Spring Security 实现权限控制</h1>
+        <h2>1. Visit <a th:href="@{/admin}">管理员界面 (受 Spring Security 保护, 需要管理员角色方可访问)</a></h2>
+        <h2>2. Visit <a th:href="@{/user}">用户界面 (受 Spring Security 保护, 需要用户角色方可访问)</a></h2>
+        <h2>3. Visit <a th:href="@{/about}">正常界面，管理员一般用户都可以访问</a></h2>
+    </div>
+
+</div>
+<!-- /.container -->
+
+<div th:replace="fragments/footer :: footer"/>
+
+</body>
+</html>
