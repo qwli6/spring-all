@@ -1,10 +1,7 @@
-# SpringBoot 教程代码
-
-### 1. 配置 SpringBoot 开发环境
-
-利用 `spring.start.io` 初始化 `SpringBoot` 开发环境
-
-### 2. SpringBoot 整合 Thymeleaf 模板引擎
+# Codebase for the tutorials on my <a href="">blog</a>
 
 
-### 3. SpringBoot 构建 Restful 风格服务
+### HOWTO's
+- 配置 SpringBoot 开发环境
+- SpringBoot 整合 Thymeleaf 模板引擎
+- SpringBoot 构建 Restful 风格服务
