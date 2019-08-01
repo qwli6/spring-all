@@ -1,5 +1,6 @@
 ## Codebase for the tutorials on my <a href="">blog</a>
 
+This code may be terrible and buggy. Use at your own risk.
 
 ### HOWTO's
 - 配置 SpringBoot 开发环境
