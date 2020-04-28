@@ -1,4 +1,4 @@
-package com.lqwit.springboot.demo;
+package com.lqwit.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
